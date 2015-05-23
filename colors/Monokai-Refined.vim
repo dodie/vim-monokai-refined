@@ -1,6 +1,3 @@
-" Vim color file
-" Converted from Textmate theme Monokai Refined using Coloration v0.3.2 (http://github.com/sickill/coloration)
-
 set background=dark
 highlight clear
 
@@ -20,13 +17,12 @@ hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#5f5f5e guibg=#5f5f5e gui=NO
 hi MatchParen ctermfg=197 ctermbg=238 cterm=bold guifg=#f92672 guibg=#444444 gui=bold
 hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg=#f8f8f2 guibg=#5f5f5e gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg=#f8f8f2 guibg=#5f5f5e gui=NONE
-hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#444444 gui=NONE
+hi Pmenu ctermfg=white ctermbg=black cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi PmenuSel ctermfg=white ctermbg=237 cterm=NONE guifg=NONE guibg=#444444 gui=NONE
 hi IncSearch ctermfg=NONE ctermbg=53 cterm=NONE guifg=NONE guibg=#68233c gui=NONE
 hi Search ctermfg=NONE ctermbg=53 cterm=NONE guifg=NONE guibg=#68233c gui=NONE
 hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Folded ctermfg=95 ctermbg=234 cterm=NONE guifg=#75715e guibg=#212121 gui=NONE
-
 hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#f8f8f2 guibg=#212121 gui=NONE
 hi Boolean ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
@@ -129,12 +125,11 @@ hi scssVariable ctermfg=208 ctermbg=NONE cterm=NONE guifg=#fd971f guibg=NONE gui
 hi scssVariableValue ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=italic
 hi scssColor ctermfg=81 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=NONE
 
-highlight clear SpellBad
-highlight SpellBad term=standout ctermfg=1 term=underline cterm=underline
-highlight clear SpellCap
-highlight SpellCap term=underline cterm=underline
-highlight clear SpellRare
-highlight SpellRare term=underline cterm=underline
-highlight clear SpellLocal
-highlight SpellLocal term=underline cterm=underline
-
+hi clear SpellBad
+hi SpellBad term=standout ctermfg=1 term=underline cterm=underline
+hi clear SpellCap
+hi SpellCap term=underline cterm=underline
+hi clear SpellRare
+hi SpellRare term=underline cterm=underline
+hi clear SpellLocal
+hi SpellLocal term=underline cterm=underline
