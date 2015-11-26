@@ -135,3 +135,6 @@ hi clear SpellRare
 hi SpellRare term=underline cterm=underline
 hi clear SpellLocal
 hi SpellLocal term=underline cterm=underline
+
+"Transparent bg
+hi Normal ctermbg=none
